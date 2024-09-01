@@ -1,0 +1,41 @@
+# Ignorar el directorio vendor (composer dependencies)
+/vendor/
+
+# Ignorar el directorio web/sites/default/files (archivos subidos)
+web/sites/default/files/
+
+# Ignorar configuraciones específicas del entorno
+web/sites/default/settings.php
+web/sites/default/settings.local.php
+
+# Ignorar directorios de caché
+web/sites/default/files/css/
+web/sites/default/files/js/
+web/sites/default/files/php/
+web/sites/default/files/styles/
+web/sites/default/files/tmp/
+
+# Ignorar archivos generados por Composer
+/composer.phar
+/composer.lock
+
+# Ignorar archivos de Lando o Docker
+.lando.yml
+.dockerignore
+.docker-compose.yml
+
+# Ignorar archivos de configuración de entornos locales
+/.env
+/.env.local
+/.env.*.local
+
+# Ignorar IDEs
+/.idea/
+/.vscode/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
